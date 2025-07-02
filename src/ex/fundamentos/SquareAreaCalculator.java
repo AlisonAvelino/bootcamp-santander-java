@@ -11,6 +11,8 @@ public class SquareAreaCalculator {
 
         double area = calculateArea(sideLength);
         System.out.printf("A área do quadrado é %.2f\n", area, area);
+
+        scanner.close();
     }
 
     private static double calculateArea(double sideLength) {

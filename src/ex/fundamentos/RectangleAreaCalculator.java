@@ -14,6 +14,8 @@ public class RectangleAreaCalculator {
 
         double area = calculateRectangleArea(base, height);
         System.out.printf("A área do retângulo é %.2f\n", area);
+
+        scanner.close();
     }
 
     private static double calculateRectangleArea(double base, double height) {

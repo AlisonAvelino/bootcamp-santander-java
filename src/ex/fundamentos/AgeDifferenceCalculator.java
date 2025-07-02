@@ -20,6 +20,8 @@ public class AgeDifferenceCalculator {
         int ageDifferenceResult = calculateAgeDifference(ages[0], ages[1]);
 
         System.out.printf("A diferença de idade entre %s e %s é de %d anos.\n", names[0], names[1], ageDifferenceResult);
+
+        scanner.close();
     }
 
     private static int calculateAgeDifference(int age1, int age2) {

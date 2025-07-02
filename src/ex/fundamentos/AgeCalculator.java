@@ -16,6 +16,7 @@ public class AgeCalculator {
         int currentAge = calculateAge(year);
         System.out.printf("Olá %s você tem %s anos! \n", name, currentAge);
 
+        scanner.close();
     }
 
     static int calculateAge(int year){
